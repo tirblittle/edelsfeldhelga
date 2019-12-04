@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* place css fixes for all versions of IE in this conditional comment */
+.twoColLgSide #sidebar1 { padding-top: 30px; }
+.twoColLgSide #mainContent { zoom: 1; }
+/* the above proprietary zoom property gives IE the hasLayout it needs to avoid several bugs */
